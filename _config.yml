@@ -4,8 +4,7 @@ theme: minima
 
 # This line makes the top navigation include these pages automatically:
 header_pages:
-  - about.md
-  - papers.md
+  - talks.md
   - cv.md
 
 # Optional (nice social footer links):
