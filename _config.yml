@@ -1,0 +1,15 @@
+title: Ignacio Manzur
+description: I am a second-year PhD student at the EPFL COMPSEC Lab, where I am advised by Alessandro Chiesa. I have a MASt in Pure Mathematics from the University of Cambridge. 
+theme: minima
+
+# This line makes the top navigation include these pages automatically:
+header_pages:
+  - talks.md
+  - papers.md
+  - cv.md
+
+# Optional (nice social footer links):
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/nachitomanzur" }
+    # - { platform: linkedin, user_url: "https://www.linkedin.com/in/your-id/" }
