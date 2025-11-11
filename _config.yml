@@ -1,6 +1,8 @@
 title: Ignacio Manzur
 description: Ignacio's website. 
-theme: minima
+remote_theme: jekyll/minima@v3.0
+plugins:
+  - jekyll-remote-theme
 
 # This line makes the top navigation include these pages automatically:
 header_pages:
