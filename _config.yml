@@ -7,5 +7,8 @@ header_pages:
   - talks.md
   - cv.md
 
+author:
+  name: ""
+
 github_username: nachitomanzur
 twitter_username: nachitomanzur
