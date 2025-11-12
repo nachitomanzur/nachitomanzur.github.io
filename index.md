@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: About me
 ---
 
 <div markdown="1" style="display:flex; gap:1rem; align-items:flex-start; flex-wrap:wrap;">
