@@ -17,5 +17,6 @@ title: Home
 ## Papers
 
 <!-- Replace the bullets below with your own entries -->
-- **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** — *Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__*  
-  [ePrint](https://eprint.iacr.org/2025/2051)
+- **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051)
+<small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small>
+  
