@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<div style="display:flex; gap:1rem; align-items:flex-start; flex-wrap:wrap;">
+<div markdown="1" style="display:flex; gap:1rem; align-items:flex-start; flex-wrap:wrap;">
   <div>
     <p><strong>Ignacio Manzur</strong><br>
     I am a second-year PhD student at EPFL COMPSEC Lab, where I am advised by [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/). Before that, I worked as a Cryptography Researcher at [Nethermind](https://www.nethermind.io/cryptography-research) for around 2 years. I have a MASt in Pure Mathematics (Part III) from the University of Cambridge.
@@ -19,4 +19,13 @@ title: Home
 <!-- Replace the bullets below with your own entries -->
 - **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051)
 <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small>
-  
+
+- **FLI: Folding lookup instances** [[ePrint]](https://eprint.iacr.org/2024/1531)
+<small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__* </small>
+<small><span style="color:gray;">Asiacrypt 2024</span></small>
+
+- **Mova: Nova folding without committing to error terms** [[ePrint]](https://eprint.iacr.org/2024/1220)
+<small>*Nikolaos Dimitriou, [Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__, Ilia Vlasov* </small>
+
+- **On amortization techniques for FRI-based SNARKs** [[ePrint]](https://eprint.iacr.org/2024/661)
+<small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), Hayk Hovhanissyan, Aram Jivanyan, __Ignacio Manzur__, Isaac Villalobos, and Michał Zając* </small>
