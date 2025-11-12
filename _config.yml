@@ -1,8 +1,8 @@
 # _config.yml
-title: Ignacio Manzur
-description: Ignacio's website. 
+title: "Ignacio Manzur"
+description: "Ignacio's website." 
 
-remote_theme: jekyll/minima   # ← no @v3.0
+remote_theme: "jekyll/minima"   # ← no @v3.0
 plugins:
   - jekyll-remote-theme
 
@@ -12,13 +12,13 @@ minima:
     - talks.md
     - cv.md
   social_links:             # v3 footer icons (Font Awesome names)
-    - title: GitHub
-      icon: github
-      url: https://github.com/nachitomanzur
-    - title: LinkedIn
-      icon: linkedin
-      url: https://www.linkedin.com/in/ignacio-manzur-0220121b7/
-    - title: X
-       icon: x-twitter
-       url: https://x.com/nachitomanzur
+    - title: "GitHub"
+      icon: "github"
+      url: "https://github.com/nachitomanzur"
+    - title: "LinkedIn"
+      icon: "linkedin"
+      url: "https://www.linkedin.com/in/ignacio-manzur-0220121b7/"
+    - title: "X"
+       icon: "x-twitter"
+       url: "https://x.com/nachitomanzur"
 
