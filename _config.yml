@@ -1,17 +1,24 @@
+# _config.yml
 title: Ignacio Manzur
 description: Ignacio's website. 
-remote_theme: jekyll/minima@v3.0
+
+remote_theme: jekyll/minima   # ← no @v3.0
 plugins:
   - jekyll-remote-theme
 
-# This line makes the top navigation include these pages automatically:
-header_pages:
-  - talks.md
-  - cv.md
-
-# Optional (nice social footer links):
+# Minima v3 moved some settings under `minima:`
 minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/nachitomanzur" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/ignacio-manzur-0220121b7/" }
-    - { platform: twitter, user_url: "https://x.com/nachitomanzur" }
+  nav_pages:                # replaces `header_pages` in v3
+    - talks.md
+    - cv.md
+  social_links:             # v3 footer icons (Font Awesome names)
+    - title: GitHub
+      icon: github
+      url: https://github.com/nachitomanzur
+    - title: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/ignacio-manzur-0220121b7/
+    - title: X
+       icon: x-twitter
+       url: https://x.com/nachitomanzur
+
