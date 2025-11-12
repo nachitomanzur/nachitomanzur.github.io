@@ -7,9 +7,5 @@ header_pages:
   - talks.md
   - cv.md
 
-minima:
-  author:
-    name: Ignacio Manzur
-    github: nachitomanzur
-    linkedin: ignacio-manzur-0220121b7/
-    twitter: nachitomanzur
+github_username: nachitomanzur
+twitter_username: nachitomanzur
