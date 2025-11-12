@@ -7,8 +7,5 @@ header_pages:
   - talks.md
   - cv.md
 
-author:
-  name: EPFL COMPSEC Lab
-
 github_username: nachitomanzur
 twitter_username: nachitomanzur
