@@ -21,11 +21,15 @@ title: Home
 <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small>
 
 - **FLI: Folding lookup instances** [[ePrint]](https://eprint.iacr.org/2024/1531)
+  
 <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__* </small>
+
 <small><span style="color:gray;">Asiacrypt 2024</span></small>
 
 - **Mova: Nova folding without committing to error terms** [[ePrint]](https://eprint.iacr.org/2024/1220)
+  
 <small>*Nikolaos Dimitriou, [Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__, Ilia Vlasov* </small>
 
 - **On amortization techniques for FRI-based SNARKs** [[ePrint]](https://eprint.iacr.org/2024/661)
+  
 <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), Hayk Hovhanissyan, Aram Jivanyan, __Ignacio Manzur__, Isaac Villalobos, and Michał Zając* </small>
