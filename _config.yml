@@ -5,7 +5,7 @@ theme: minima
 
 header_pages:
   - talks.md
-  - cv.md
+  - misc.md
 
 author: ""
 
