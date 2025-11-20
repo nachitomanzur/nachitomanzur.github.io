@@ -9,6 +9,7 @@ title: About me
     <p>I am a second-year PhD student at EPFL COMPSEC Lab, where I am advised by <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>. Before that, I worked as a Cryptography Researcher at <a href="https://www.nethermind.io/cryptography-research">Nethermind</a> for around 2 years. I have a MASt in Pure Mathematics (Part III) from the University of Cambridge.</p>
     <p>I am broadly interested in coding theory, the interaction between complexity theory and probabilistic proof/argument systems, and quantum computing.</p>
     <p>Email: ignacio.manzur@epfl.ch</p>
+    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=phK6lR4AAAAJ&hl=fr&oi=ao">Ignacio Manzur</a></p>
   </div>
 </div>
 
