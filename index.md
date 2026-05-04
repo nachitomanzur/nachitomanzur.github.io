@@ -19,8 +19,9 @@ title: About me
 
 <!-- Replace the bullets below with your own entries -->
 - **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051)<br>
-  <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small>
-
+  <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small><br>
+  <small><span style="color:gray;">To appear in CCC 2026</span></small>
+  
 - **FLI: Folding lookup instances** [[ePrint]](https://eprint.iacr.org/2024/1531)<br>
   <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__* </small><br>
   <small><span style="color:gray;">Asiacrypt 2024</span></small>
