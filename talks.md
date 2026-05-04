@@ -4,4 +4,4 @@ title: Talks
 permalink: /talks/
 ---
 
-WIP, will update
+- **ZK Proof 8**, Rome, May 2026
