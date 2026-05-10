@@ -18,7 +18,7 @@ title: About me
 ## Papers
 
 <!-- Replace the bullets below with your own entries -->
-- **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051)<br>
+- **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051) [[ZKProof Talk]](https://www.youtube.com/watch?v=tnEoWWe9XMY&pp=ygUOemtwcm9vZiBtYW56dXI%3D) <br>
   <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small><br>
   <small><span style="color:gray;">To appear in CCC 2026</span></small>
   
