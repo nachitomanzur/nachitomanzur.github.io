@@ -18,9 +18,12 @@ title: About me
 ## Papers
 
 <!-- Replace the bullets below with your own entries -->
+- **Mutual Correlated Agreement and List-Decoding: Improvements and Separations** [[ePrint]](https://eprint.iacr.org/2026/2617)<br>
+  <small>*__Ignacio Manzur__* </small>
+
 - **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051) [[ZKProof Talk]](https://www.youtube.com/watch?v=tnEoWWe9XMY&pp=ygUOemtwcm9vZiBtYW56dXI%3D) <br>
   <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small><br>
-  <small><span style="color:gray;">To appear in CCC 2026</span></small>
+  <small><span style="color:gray;">CCC 2026</span></small>
   
 - **FLI: Folding lookup instances** [[ePrint]](https://eprint.iacr.org/2024/1531)<br>
   <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__* </small><br>
