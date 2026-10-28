@@ -49,8 +49,26 @@ a:hover .arrow { transform: translate(2px, -2px); }
 .publication:last-child, .talk:last-child, .writing-list li:last-child { border-bottom: 0; }
 .publication-meta { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding-top: 2px; color: var(--muted); font-size: .76rem; }
 .publication-year { color: var(--text); font-size: .85rem; font-variant-numeric: tabular-nums; }
-.publication h3 > a, .talk h2 > a { color: var(--text); }
-.publication h3 > a:hover, .talk h2 > a:hover { color: var(--accent); text-decoration: none; }
+.talk h2 > a { color: var(--text); }
+.talk h2 > a:hover { color: var(--accent); text-decoration: none; }
+.publication > article { display: flex; flex-direction: column; min-width: 0; }
+.paper-toggle { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; width: 100%; margin: 0; padding: 0; border: 0; background: none; color: var(--text); font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; transition: color 180ms ease; }
+.paper-toggle:hover { color: var(--accent); }
+.paper-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; border-radius: 2px; }
+.paper-toggle::after { content: ""; flex: 0 0 7px; height: 7px; margin-right: 3px; border-right: 1px solid var(--muted); border-bottom: 1px solid var(--muted); transform: translateY(-3px) rotate(45deg); transition: transform 260ms ease; }
+.paper-toggle[aria-expanded="true"]::after { transform: translateY(1px) rotate(225deg); }
+.abstract-panel { display: grid; grid-template-rows: 1fr; opacity: 1; }
+.has-paper-js .abstract-panel { grid-template-rows: 0fr; opacity: 0; }
+.abstract-panel.is-collapsible { grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows 280ms cubic-bezier(.2, .65, .3, 1), opacity 220ms ease; }
+.has-paper-js .abstract-panel.is-open { grid-template-rows: 1fr; opacity: 1; }
+.abstract-clip { min-height: 0; overflow: hidden; }
+.paper-abstract { padding: 4px 0 22px; color: #c6cec7; font-size: .9rem; line-height: 1.85; overflow-wrap: anywhere; }
+.paper-abstract p { margin-bottom: 1rem; }
+.paper-abstract p:last-child { margin-bottom: 0; }
+.paper-abstract .katex { font-size: 1.05em; }
+.math-inline { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; }
+.paper-abstract .katex-display { overflow-x: auto; overflow-y: hidden; }
+.publication .paper-links { margin-top: auto; }
 .authors { margin: 10px 0 12px; color: var(--muted); font-size: .85rem; line-height: 1.7; }
 .authors a { color: inherit; }
 .authors a:hover { color: var(--accent); }
