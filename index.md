@@ -4,7 +4,7 @@ title: About me
 ---
 
 <section class="about enter" aria-labelledby="about-heading">
-  <img class="portrait" src="{{ '/IMG_6949.jpeg' | relative_url }}" alt="Ignacio Manzur" width="216" height="252" fetchpriority="high">
+  <img class="portrait" src="{{ '/IMG_6949.jpeg' | relative_url }}" alt="Ignacio Manzur" width="216" height="240" fetchpriority="high">
   <div class="about-copy">
     <p class="eyebrow">PhD student · EPFL</p>
     <h1 id="about-heading">About me</h1>

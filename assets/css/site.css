@@ -26,7 +26,6 @@ strong { color: var(--text); font-weight: 600; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 34px 0 26px; border-bottom: 1px solid var(--line); }
 .site-name { color: var(--text); font-size: 1.15rem; font-weight: 550; letter-spacing: -.035em; white-space: nowrap; }
 .site-name:hover { color: var(--text); text-decoration: none; }
-.name-dot { color: var(--accent); }
 .site-nav { display: flex; gap: 28px; font-size: .875rem; }
 .site-nav a { position: relative; padding: 6px 0; color: var(--muted); }
 .site-nav a:hover, .site-nav a[aria-current] { color: var(--text); text-decoration: none; }
@@ -35,7 +34,7 @@ strong { color: var(--text); font-weight: 600; }
 main { min-height: 60vh; }
 main:focus { outline: none; }
 .about { display: grid; grid-template-columns: 216px minmax(0, 1fr); align-items: start; gap: 56px; padding: 72px 0 64px; }
-.portrait { display: block; width: 216px; height: 252px; object-fit: cover; object-position: 42% center; border-radius: 5px; margin-top: 8px; }
+.portrait { display: block; width: 216px; height: 240px; object-fit: cover; object-position: 42% center; border-radius: 5px; margin-top: 8px; }
 .eyebrow { margin: 0 0 12px; color: var(--muted); font-size: .73rem; letter-spacing: .12em; text-transform: uppercase; }
 .about-copy { font-size: .98rem; }
 .about-copy > p:not(.eyebrow) { color: #c6cec7; }
@@ -78,7 +77,7 @@ a:hover .arrow { transform: translate(2px, -2px); }
   .site-header { align-items: flex-start; gap: 18px; padding-top: 24px; }
   .site-nav { gap: 18px; font-size: .8rem; }
   .about { grid-template-columns: 160px minmax(0, 1fr); gap: 30px; padding-top: 48px; }
-  .portrait { width: 160px; height: 200px; }
+  .portrait { width: 160px; height: 190px; }
   .publication { grid-template-columns: 80px minmax(0, 1fr); gap: 20px; }
   .talk { grid-template-columns: 100px minmax(0, 1fr); gap: 20px; }
 }
@@ -86,7 +85,7 @@ a:hover .arrow { transform: translate(2px, -2px); }
   .site-header { flex-direction: column; gap: 10px; padding-bottom: 18px; }
   .site-nav { gap: 26px; }
   .about { grid-template-columns: minmax(0, 1fr); gap: 30px; padding: 36px 0 46px; }
-  .portrait { width: 144px; height: 164px; margin: 0; }
+  .portrait { width: 144px; height: 156px; margin: 0; }
   .about h1 { margin-bottom: 18px; }
   .about-copy { font-size: .95rem; }
   .section-heading > span { display: none; }
