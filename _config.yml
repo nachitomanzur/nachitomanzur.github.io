@@ -1,6 +1,8 @@
 # _config.yml
 title: Ignacio Manzur
-description: A website.
+description: Coding theory, complexity theory, probabilistic proofs, and quantum computing. Ignacio Manzur, PhD student at EPFL.
+url: https://nachitomanzur.github.io
+baseurl: ""
 theme: minima
 
 header_pages:

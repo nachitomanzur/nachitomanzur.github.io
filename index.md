@@ -3,34 +3,63 @@ layout: home
 title: About me
 ---
 
-<div markdown="1" style="display:flex; gap:1rem; align-items:flex-start; flex-wrap:wrap;">
-  <img src="IMG_6949.jpeg" style="width:160px; height:160px; object-fit:cover; border-radius:12px;"/>
-  <div>
+<section class="about enter" aria-labelledby="about-heading">
+  <img class="portrait" src="{{ '/IMG_6949.jpeg' | relative_url }}" alt="Ignacio Manzur" width="216" height="252" fetchpriority="high">
+  <div class="about-copy">
+    <p class="eyebrow">PhD student · EPFL</p>
+    <h1 id="about-heading">About me</h1>
     <p>I am a second-year PhD student at the EPFL COMPSEC Lab, where I am advised by <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>. Before that, I worked as a Cryptography Researcher at <a href="https://www.nethermind.io/cryptography-research">Nethermind</a> for around 2 years. I have a MASt in Pure Mathematics (Part III) from the University of Cambridge.</p>
     <p>I am broadly interested in coding theory, the interaction between complexity theory and probabilistic proof/argument systems, and quantum computing.</p>
-    <p>Email: ignacio.manzur@epfl.ch</p>
-    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=phK6lR4AAAAJ&hl=fr&oi=ao">Ignacio Manzur</a></p>
+    <div class="contact-links" aria-label="Contact and profiles">
+      <a class="email" href="mailto:ignacio.manzur@epfl.ch">ignacio.manzur@epfl.ch</a>
+      <a href="https://scholar.google.com/citations?user=phK6lR4AAAAJ&amp;hl=fr&amp;oi=ao">Google Scholar <span class="arrow" aria-hidden="true">↗</span></a>
+      <a href="{{ '/assets/Ignacio_Manzur_CV.pdf' | relative_url }}">CV <span class="arrow" aria-hidden="true">↗</span></a>
+    </div>
   </div>
-</div>
+</section>
 
----
-
-## Papers
-
-<!-- Replace the bullets below with your own entries -->
-- **Mutual Correlated Agreement and List-Decoding: Improvements and Separations** [[ePrint]](https://eprint.iacr.org/2026/2617)<br>
-  <small>*__Ignacio Manzur__* </small>
-
-- **All Polynomial Generators Preserve Distance with Mutual Correlated Agreement** [[ePrint]](https://eprint.iacr.org/2025/2051) [[ZKProof Talk]](https://www.youtube.com/watch?v=tnEoWWe9XMY&pp=ygUOemtwcm9vZiBtYW56dXI%3D) <br>
-  <small>*Sarah Bordage, [Alessandro Chiesa](https://ic-people.epfl.ch/~achiesa/), [Ziyi Guan](https://ziyiguan.github.io/), __Ignacio Manzur__* </small><br>
-  <small><span style="color:gray;">CCC 2026</span></small>
-  
-- **FLI: Folding lookup instances** [[ePrint]](https://eprint.iacr.org/2024/1531)<br>
-  <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__* </small><br>
-  <small><span style="color:gray;">Asiacrypt 2024</span></small>
-
-- **Mova: Nova folding without committing to error terms** [[ePrint]](https://eprint.iacr.org/2024/1220)<br>
-  <small>*Nikolaos Dimitriou, [Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), __Ignacio Manzur__, Ilia Vlasov* </small>
-
-- **On amortization techniques for FRI-based SNARKs** [[ePrint]](https://eprint.iacr.org/2024/661)<br>
-  <small>*[Albert Garreta](https://sites.google.com/view/agarreta/home?authuser=0), Hayk Hovhanissyan, Aram Jivanyan, __Ignacio Manzur__, Isaac Villalobos, Michał Zając* </small>
+<section class="research enter enter-later" aria-labelledby="papers-heading">
+  <div class="section-heading"><h2 id="papers-heading">Papers</h2><span>Publications &amp; preprints</span></div>
+  <ol class="publications">
+  <li class="publication">
+    <div class="publication-meta"><span class="publication-year">2026</span><span>Preprint</span></div>
+    <article>
+      <h3><a href="https://eprint.iacr.org/2026/2617">Mutual Correlated Agreement and List-Decoding: Improvements and Separations</a></h3>
+      <p class="authors"><strong>Ignacio Manzur</strong></p>
+      <div class="paper-links"><a href="https://eprint.iacr.org/2026/2617">ePrint <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </article>
+  </li>
+  <li class="publication">
+    <div class="publication-meta"><span class="publication-year">2026</span><span>CCC</span></div>
+    <article>
+      <h3><a href="https://eprint.iacr.org/2025/2051">All Polynomial Generators Preserve Distance with Mutual Correlated Agreement</a></h3>
+      <p class="authors">Sarah Bordage, <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>, <a href="https://ziyiguan.github.io/">Ziyi Guan</a>, <strong>Ignacio Manzur</strong></p>
+      <div class="paper-links"><a href="https://eprint.iacr.org/2025/2051">ePrint <span class="arrow" aria-hidden="true">↗</span></a><a href="https://www.youtube.com/watch?v=tnEoWWe9XMY">ZKProof Talk <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </article>
+  </li>
+  <li class="publication">
+    <div class="publication-meta"><span class="publication-year">2024</span><span>Asiacrypt</span></div>
+    <article>
+      <h3><a href="https://eprint.iacr.org/2024/1531">FLI: Folding lookup instances</a></h3>
+      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>Ignacio Manzur</strong></p>
+      <div class="paper-links"><a href="https://eprint.iacr.org/2024/1531">ePrint <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </article>
+  </li>
+  <li class="publication">
+    <div class="publication-meta"><span class="publication-year">2024</span><span>Preprint</span></div>
+    <article>
+      <h3><a href="https://eprint.iacr.org/2024/1220">Mova: Nova folding without committing to error terms</a></h3>
+      <p class="authors">Nikolaos Dimitriou, <a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>Ignacio Manzur</strong>, Ilia Vlasov</p>
+      <div class="paper-links"><a href="https://eprint.iacr.org/2024/1220">ePrint <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </article>
+  </li>
+  <li class="publication">
+    <div class="publication-meta"><span class="publication-year">2024</span><span>Preprint</span></div>
+    <article>
+      <h3><a href="https://eprint.iacr.org/2024/661">On amortization techniques for FRI-based SNARKs</a></h3>
+      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, Hayk Hovhanissyan, Aram Jivanyan, <strong>Ignacio Manzur</strong>, Isaac Villalobos, Michał Zając</p>
+      <div class="paper-links"><a href="https://eprint.iacr.org/2024/661">ePrint <span class="arrow" aria-hidden="true">↗</span></a></div>
+    </article>
+  </li>
+  </ol>
+</section>
