@@ -26,7 +26,7 @@ paper_abstracts: true
     <div class="publication-meta"><span class="publication-year">2026</span><span>Preprint</span></div>
     <article>
       <h3><button class="paper-toggle" type="button" id="title-mca-list-decoding" aria-expanded="true" aria-controls="abstract-mca-list-decoding">Mutual Correlated Agreement and List-Decoding: Improvements and Separations</button></h3>
-      <p class="authors"><strong>Ignacio Manzur</strong></p>
+      <p class="authors"><strong>IM</strong></p>
       <div class="abstract-panel" id="abstract-mca-list-decoding" role="region" aria-labelledby="title-mca-list-decoding">
         <div class="abstract-clip"><div class="paper-abstract">
 {% capture abstract %}{% include abstracts/mca-list-decoding.md %}{% endcapture %}
@@ -40,7 +40,7 @@ paper_abstracts: true
     <div class="publication-meta"><span class="publication-year">2026</span><span>CCC</span></div>
     <article>
       <h3><button class="paper-toggle" type="button" id="title-polynomial-generators" aria-expanded="true" aria-controls="abstract-polynomial-generators">All Polynomial Generators Preserve Distance with Mutual Correlated Agreement</button></h3>
-      <p class="authors">Sarah Bordage, <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>, <a href="https://ziyiguan.github.io/">Ziyi Guan</a>, <strong>Ignacio Manzur</strong></p>
+      <p class="authors">Sarah Bordage, <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>, <a href="https://ziyiguan.github.io/">Ziyi Guan</a>, <strong>IM</strong></p>
       <div class="abstract-panel" id="abstract-polynomial-generators" role="region" aria-labelledby="title-polynomial-generators">
         <div class="abstract-clip"><div class="paper-abstract">
 {% capture abstract %}{% include abstracts/polynomial-generators.md %}{% endcapture %}
@@ -54,7 +54,7 @@ paper_abstracts: true
     <div class="publication-meta"><span class="publication-year">2024</span><span>Asiacrypt</span></div>
     <article>
       <h3><button class="paper-toggle" type="button" id="title-fli" aria-expanded="true" aria-controls="abstract-fli">FLI: Folding lookup instances</button></h3>
-      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>Ignacio Manzur</strong></p>
+      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>IM</strong></p>
       <div class="abstract-panel" id="abstract-fli" role="region" aria-labelledby="title-fli">
         <div class="abstract-clip"><div class="paper-abstract">
 {% capture abstract %}{% include abstracts/fli.md %}{% endcapture %}
@@ -68,7 +68,7 @@ paper_abstracts: true
     <div class="publication-meta"><span class="publication-year">2024</span><span>Preprint</span></div>
     <article>
       <h3><button class="paper-toggle" type="button" id="title-mova" aria-expanded="true" aria-controls="abstract-mova">Mova: Nova folding without committing to error terms</button></h3>
-      <p class="authors">Nikolaos Dimitriou, <a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>Ignacio Manzur</strong>, Ilia Vlasov</p>
+      <p class="authors">Nikolaos Dimitriou, <a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, <strong>IM</strong>, Ilia Vlasov</p>
       <div class="abstract-panel" id="abstract-mova" role="region" aria-labelledby="title-mova">
         <div class="abstract-clip"><div class="paper-abstract">
 {% capture abstract %}{% include abstracts/mova.md %}{% endcapture %}
@@ -82,7 +82,7 @@ paper_abstracts: true
     <div class="publication-meta"><span class="publication-year">2024</span><span>Preprint</span></div>
     <article>
       <h3><button class="paper-toggle" type="button" id="title-fri-amortization" aria-expanded="true" aria-controls="abstract-fri-amortization">On amortization techniques for FRI-based SNARKs</button></h3>
-      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, Hayk Hovhanissyan, Aram Jivanyan, <strong>Ignacio Manzur</strong>, Isaac Villalobos, Michał Zając</p>
+      <p class="authors"><a href="https://sites.google.com/view/agarreta/home?authuser=0">Albert Garreta</a>, Hayk Hovhanissyan, Aram Jivanyan, <strong>IM</strong>, Isaac Villalobos, Michał Zając</p>
       <div class="abstract-panel" id="abstract-fri-amortization" role="region" aria-labelledby="title-fri-amortization">
         <div class="abstract-clip"><div class="paper-abstract">
 {% capture abstract %}{% include abstracts/fri-amortization.md %}{% endcapture %}
