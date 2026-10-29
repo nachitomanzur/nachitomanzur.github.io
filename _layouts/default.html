@@ -8,6 +8,10 @@
   <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
   <meta name="description" content="{{ site.description | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="16x16 32x32 48x48 256x256">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icons/monet-water-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/icons/monet-water-16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icons/monet-water-180.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   {% if page.paper_abstracts %}
   <script>document.documentElement.classList.add('has-paper-js');</script>
